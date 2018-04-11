@@ -1,14 +1,95 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "students": [
+    {
+      "id": 1,
+      "pseudo": "mprevost",
+      "lastname": "PREVOST",
+      "firstname": "Mathilde",
+      "birthdate": "1995-02-16",
+      "speciality": "Informatique",
+      "email": "prevost.mathilde16@gmail.com",
+      "phone": "0750460025"
+    },
+    {
+      "id": 2,
+      "pseudo": "bgermond",
+      "lastname": "GERMOND",
+      "firstname": "Baptiste",
+      "birthdate": "1995-05-17",
+      "speciality": "Informatique",
+      "email": "germond.baptiste@gmail.com",
+      "phone": "0601393840"
+    },
+    {
+      "pseudo": "imena",
+      "lastname": "Ammar",
+      "firstname": "Imen",
+      "birthdate": "1993-12-29",
+      "speciality": "Informatique",
+      "email": "imen.ammar@u-psud.fr",
+      "phone": "0648833829",
+      "id": 5
+    },
+    {
+      "id": 9,
+      "pseudo": "aprevost",
+      "lastname": "PREVOST",
+      "firstname": "Anais",
+      "birthdate": "1998-08-08",
+      "speciality": "Photonique et Systèmes Optroniques",
+      "email": "anais.prevost@gmail.com",
+      "phone": "0660466963"
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "grades": [
+    {
+      "id": 4,
+      "student_id": 1,
+      "note": 12,
+      "coefficient": 1,
+      "subject": "Anglais"
+    },
+    {
+      "id": 5,
+      "student_id": 1,
+      "note": 11,
+      "coefficient": 2,
+      "subject": "Maths"
+    },
+    {
+      "student_id": 2,
+      "note": 18,
+      "coefficient": 2,
+      "subject": "maths",
+      "id": 8
+    },
+    {
+      "id": 9,
+      "student_id": 2,
+      "note": 14,
+      "coefficient": 1,
+      "subject": "test2"
+    },
+    {
+      "id": 11,
+      "student_id": 9,
+      "note": 12,
+      "coefficient": 1,
+      "subject": "test"
+    },
+    {
+      "id": 12,
+      "student_id": 1,
+      "note": 15,
+      "coefficient": 2,
+      "subject": "test"
+    },
+    {
+      "student_id": 10,
+      "note": 15,
+      "coefficient": 2,
+      "subject": "test",
+      "id": 13
+    }
+  ]
 }
